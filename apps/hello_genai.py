@@ -6,7 +6,7 @@ genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 model = genai.GenerativeModel('gemini-1.5-flash')
 
-with open('Wilcv.pdf', 'rb') as pdf_file:
+with open('../files/Wilcv.pdf', 'rb') as pdf_file:
     reader = PyPDF2.PdfReader(pdf_file)
     texto = ''
     
