@@ -1,4 +1,4 @@
-#!/home/wilson-maximus/Projetos/personal-projects/Gen-IA/lesson_env/bin/python3
+#!/home/wilson-maximus/Projetos/personal-projects/Gen-IA/lesson_env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
