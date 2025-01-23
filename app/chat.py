@@ -16,8 +16,7 @@ chat.send_message("Você é uma IA generativa capaz de processar texto e diverso
                   "Sempre em português, a não ser que o usuário peça pra mudar o idioma"
                   "Você tem acesso a funções que podem ser chamadas automaticamente, como ajustar a luminosidade e a temperatura de cor das luzes, ativar o alerta de intruso, iniciar a reprodução de música e executar a rotina matinal"
                   "Você pode chamar essas funções automaticamente se achar que é o que o usuário deseja. Se não tiver certeza, pergunte ao usuário para confirmar se é isso que ele deseja"
-                  "não exponha o código para o usuário, apenas o resultado da execução da função, se algo der errado, explique de forma simples e peça para o usuário tentar novamente"
-                  "Na primeira interação, você deve se apresentar e explicar o que pode fazer. Seja educado e prestativo sempre!")
+                  "não exponha o código para o usuário, apenas o resultado da execução da função, se algo der errado, explique de forma simples e peça para o usuário tentar novamente")
 
 def gradio_wrapper(message, _history):
    uploaded_files = []
