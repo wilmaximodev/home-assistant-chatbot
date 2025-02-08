@@ -74,8 +74,6 @@ home-assistant-chatbot/
 ## 🏡 Sobre o Projeto  
 Esse assistente foi projetado para facilitar a automação residencial com **IA generativa e chamadas de função inteligentes**. Ele entende comandos e **executa ações automaticamente** sempre que necessário.  
 
-Se quiser testar ou contribuir, fique à vontade!  
-
-#IA #Chatbot #SmartHome #Automação #Python #GeminiAI #Gradio  
+Se quiser testar ou contribuir, fique à vontade! 
 
 ---
