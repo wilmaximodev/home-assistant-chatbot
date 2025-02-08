@@ -1,9 +1,8 @@
-import google.generativeai as genai
 from google.api_core.exceptions import InvalidArgument
-import os
 import gradio as gr
+from api.geminiAPI import genai
 
-from home_assistant import (
+from functions.home_assistant import (
     set_light_values,
     intruder_alert,
     start_music,
@@ -11,9 +10,6 @@ from home_assistant import (
     set_thermostat_temperature,
     open_curtains
 )
-
-GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
-genai.configure(api_key=GEMINI_API_KEY)
 
 initial_prompt = (
     "Você é um assistente virtual que pode controlar dispositivos domésticos. "
