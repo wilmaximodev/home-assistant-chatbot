@@ -15,7 +15,10 @@ Um chatbot baseado em **IA generativa** que pode processar texto e arquivos, al�
 ## 🚀 Tecnologias  
 - **Python**  
 - **Google Gemini AI** (IA generativa com suporte a chamadas de função)  
-- **Gradio** (Interface interativa para chatbot)  
+- **Gradio** (Interface interativa para chatbot)
+
+## Interaja com o chatbot agora mesmo:
+https://huggingface.co/spaces/wilmaxdev/chatbot-suporte-arquivos-gemini
 
 ## 📦 Instalação  
 
